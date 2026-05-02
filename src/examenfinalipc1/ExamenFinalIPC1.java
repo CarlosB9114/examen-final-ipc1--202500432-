@@ -22,6 +22,11 @@ public class ExamenFinalIPC1 {
        playlist.addCancion(cancion2);
        playlist.addCancion(cancion3);
        playlist.MostrarPlaylist();
+       playlist.Siguiente();
+       playlist.Siguiente();
+       playlist.Anterior();
+       playlist.EliminarActual();
+       playlist.MostrarPlaylist();
         
     }
     
