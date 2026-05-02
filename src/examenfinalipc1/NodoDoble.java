@@ -9,7 +9,7 @@ package examenfinalipc1;
  * @author Carlos
  */
 public class NodoDoble {
-    private Cancion cancion;
+    Cancion cancion;
     NodoDoble anterior;
     NodoDoble siguiente;
     public NodoDoble(Cancion cancion){

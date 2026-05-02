@@ -14,9 +14,14 @@ public class ExamenFinalIPC1 {
        Cancion cancion1 = new Cancion("Love", 500, "Justin");
        Cancion cancion2 = new Cancion("Shape of You", 240, "EdSheeran");
        Cancion cancion3 = new Cancion("Podcast", 320, "PicPod");
-       cancion1.Reproducir();
-       cancion2.Reproducir();
-       cancion3.Reproducir();
+       Playlist playlist = new Playlist();
+       //cancion1.Reproducir();
+       //cancion2.Reproducir();
+       //cancion3.Reproducir();
+       playlist.addCancion(cancion1);
+       playlist.addCancion(cancion2);
+       playlist.addCancion(cancion3);
+       playlist.MostrarPlaylist();
         
     }
     
